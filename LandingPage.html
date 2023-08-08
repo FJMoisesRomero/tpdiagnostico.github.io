@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Landing Page - Portafolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="EstiloPrincipal.css">
+        <!--Box icons-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <!--Header y Navegacion-->
+        <header class="header">
+            <a href="#" class="logo">Portafolio.</a>
+        
+            <nav class="navbar">
+                <a href="#home" class="active">Inicio</a>
+                <a href="#about">Sobre Mi</a>
+                <a href="#services">Conocimientos</a>
+                <a href="#portfolio">Proyectos</a>
+                <a href="#">Contacto</a>  
+            </nav>
+            <div class="bx bx-moon toggle-icon" id="darkMode-icon"></div>
+            <i class='bx bx-brush'id="color-picker"></i>
+            <div id="color-palette">
+                <div class="color" style="--color-value: pink;"></div>
+                <div class="color" style="--color-value: #f67828;"></div>
+                <div class="color" style="--color-value: lightskyblue;"></div>
+                <div class="color" style="--color-value: #754ef9;"></div>
+                <div class="color" style="--color-value: #ff6961;"></div>
+                <div class="color" style="--color-value: lightgreen;"></div>
+                <div class="color" style="--color-value: #836953;"></div>
+                <div class="color" style="--color-value: #9FB5A3;"></div>
+            </div>
+
+        </header>
+        <!--Seccion de Inicio-->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hola, soy</h3>
+                <h1>Franco Moises</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora enim a iste neque harum dicta delectus. Ut, minima</p>
+                <div class="social-media">
+                    <a href="#"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+                <a href="" class="btn">Descargar CV</a>
+            </div>
+            <img src="https://i.ibb.co/txwFrjn/1682206756886.png" alt="FrancoMoisesProfilePic" id="profpic1">
+            <div class="profession-container">
+                <div class="profession-box">
+                    <div class="profession" style="--i:0">
+                        <i class='bx bx-code-alt'></i>
+                        <h3>Desarrollador Web</h3>
+                    </div>
+                    <div class="profession"style="--i:1">
+                        <i class='bx bxl-python' ></i>
+                        <h3>Desarrollo en Python</h3>
+                    </div>
+                    <div class="profession"style="--i:2">
+                        <i class='bx bxl-java' ></i>
+                        <h3>Desarrollo en Java</h3>
+                    </div>
+                    <div class="profession"style="--i:3">
+                        <i class='bx bxs-ghost'></i>
+                        <h3>Desarrollo en C#</h3>
+                    </div>
+                
+                    <div class="circle"></div>
+                    
+                </div>
+
+                <div class="overlay"></div>
+            </div>
+
+            <div class="home-img">
+
+            </div>
+        </section>
+
+        <!--Seccion Sobre Mi-->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="https://i.ibb.co/hRdvp5L/profpic2.png" alt="FrancoMoisespic2" id="profpic2">
+                <div class="divtriangulo"><div class="triangulo"></div></div>
+            </div>
+              
+            <div class="about-content">
+                <h2 class="heading">Sobre<span> Mi</span></h2>
+                <h3>¡Hola, estoy aqui para ayudarte en tu proximo proyecto!</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore veniam qui ad ut quasi soluta corporis excepturi explicabo necessitatibus aliquam porro quia delectus harum consequatur, est sapiente eveniet iusto nostrum voluptate quam, libero cupiditate? Similique doloribus eius assumenda suscipit doloremque.</p>
+                <a href="#" class="btn">Leer más</a>
+            </div>
+        </section>
+        
+        <!-- Seccion Mis Conocimientos -->
+        <section class="services" id="services">
+            <h2 class="heading">Mis<span> Conocimientos</span></h2>
+            <div class="services-container">
+                <div class="services-box">
+                    <div class="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="--value: 60"></div>
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Desarrollador Web</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error voluptates ullam perspiciatis perferendis eveniet, ipsa neque nisi facilis modi sint fuga doloribus!</p>
+                    <a href="#" class="btn">Leer Mas</a>
+                    
+                </div>
+                <div class="services-box">
+                    <div class="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="--value: 70"></div>
+                    <i class='bx bxl-python' ></i>
+                    <h3>Desarrollo en Python</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error voluptates ullam perspiciatis perferendis eveniet, ipsa neque nisi facilis modi sint fuga doloribus!</p>
+                    <a href="#" class="btn">Leer Mas</a>
+                    
+                </div>
+                <div class="services-box">
+                    <div class="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="--value: 70"></div>
+                    <i class='bx bxl-java' ></i>
+                    <h3>Desarrollo en Java</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error voluptates ullam perspiciatis perferendis eveniet, ipsa neque nisi facilis modi sint fuga doloribus!</p>
+                    <a href="#" class="btn">Leer Mas</a>
+                </div>
+                <div class="services-box">
+                    <div class="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="--value: 20"></div>
+                    <i class='bx bxs-ghost'></i>
+                    <h3>Desarrollo en C#</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error voluptates ullam perspiciatis perferendis eveniet, ipsa neque nisi facilis modi sint fuga doloribus!</p>
+                    <a href="#" class="btn">Leer Mas</a>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!--Seccion de Mis Proyectos-->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Mis <span>Proyectos</span></h2>
+        
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="https://i.ibb.co/x7MH2Z4/image.png" alt="proyecto">
+                
+                    <div class="portfolio-layer">
+                        <h4>Desarrollo Web</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, sapiente hic?</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                    
+                    
+                </div>
+                <div class="portfolio-box">
+                    <img src="https://i.ibb.co/njGW7pN/imagen-2023-04-24-140856878.png" alt="proyecto">
+                
+                    <div class="portfolio-layer">
+                        <h4>Desarrollado en Python</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, sapiente hic?</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="https://vacumaid.com/wp-content/themes/nevia/images/shop-01.jpg" alt="proyecto">
+                
+                    <div class="portfolio-layer">
+                        <h4>Desarrollado en Java</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, sapiente hic?</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="https://vacumaid.com/wp-content/themes/nevia/images/shop-01.jpg" alt="proyecto">
+                
+                    <div class="portfolio-layer">
+                        <h4>Desarrollado en C#</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, sapiente hic?</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="PrincipalScript.js" async defer></script>
+    </body>
+</html>
